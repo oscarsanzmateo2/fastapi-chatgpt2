@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8000
 
 # Command to run the FastAPI app with Uvicorn
-CMD ["uvicorn", "chatbot_api:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "chatgpt2:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
