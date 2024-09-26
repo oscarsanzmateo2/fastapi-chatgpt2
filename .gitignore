@@ -1,0 +1,7 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Docker container data if any
+*.log
